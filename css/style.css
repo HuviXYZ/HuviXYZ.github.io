@@ -1,0 +1,82 @@
+div {
+    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align:center;
+    color: hsl(0, 0%, 100%) ;
+    
+}
+
+h1 {
+    text-align: center;
+    background-image: url('ban.jpg');
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 50px
+}
+
+.d1s {
+    text-align:center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-size: 30px;
+    color:rgb(255, 255, 255); 
+    
+    
+
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 17%;
+        
+    
+  }
+
+
+  
+body {
+          background-image: url('earthjpg.jpg');
+          background-repeat: no-repeat;
+
+        }
+    ¨
+
+    
+
+    .pic {
+        margin: auto;
+        width: 50%;
+        
+    }
+
+    .wrapper {
+        width: min( 90%,750px );
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+
+.d3 {
+    color: white;
+    background-image: url('ban.jpg');
+    font-size: 27px;
+    font-family: ;
+}
+
+.d2 {
+    background-color:hsla(0, 0%, 100%, 0.116);
+
+}
+
+.d4 {
+    background-color:hsla(0, 0%, 100%, 0.116);
+}
+
+.d5 {
+    background-color:hsla(0, 0%, 100%, 0.116);
+}
+
+.d1 {
+    background-color:hsla(0, 0%, 100%, 0.116);
+
+}
