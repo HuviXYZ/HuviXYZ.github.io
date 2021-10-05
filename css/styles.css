@@ -93,3 +93,14 @@ div.container4 p {
 
     }
 }
+
+
+@media screen and (max-width: 600px) {
+nav ul li a {
+    font-family: sans-serif;
+    color:rgb(224, 64, 64);
+    font-size: 14px;
+    padding: 24px 14px;
+    text-decoration: none;
+    }
+}
