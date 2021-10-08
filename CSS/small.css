@@ -29,6 +29,13 @@ body {
     margin: auto;
 }
 
+.headplace {
+    margin: auto;
+    height: auto;
+    
+    padding-top: 1px;
+}
+
 .column {
     float: left;
     padding: 0 2vh;
@@ -62,7 +69,8 @@ footer h2 {
 /*header style/regler */
 
 header {
-    background-color: blue;
+    background-color: hsl(221, 42%, 45%);
+    
 }
 
 /*  bilde størelse og plassering */
@@ -142,4 +150,8 @@ nav {
 
     nav ul {
         display: none;
+    }
+
+    main h1 {
+        text-align: center;
     }

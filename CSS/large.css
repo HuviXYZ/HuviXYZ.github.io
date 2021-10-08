@@ -5,9 +5,9 @@
     
     nav ul {margin-left: 2vw;}
 
-    nav li {width: auto;}
+    nav li {width: autopx;}
 
-    nav a {padding: .7rem 1rem}
+    nav a {padding: .8rem 1rem}
 
     
     } /* slutt av media quary */
