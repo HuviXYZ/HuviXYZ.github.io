@@ -3,60 +3,107 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>website</title>
-    <link rel="stylesheet" href="/css/styles.css">
-
-</head>
-<body>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hjem ! Huvixy.com</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300;700&display=swap" rel="stylesheet">
+    <!--rekkefølge (prioritering)-->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">    
     
+</head>
 
-    <header>
-    <div>
-        
-        <nav>
-            <p><p>
-                <a href="index.html">
-                <img border="0" alt="huviXY logo" src="logo.png" width="60" height="60">
-                </a>
-                </p></p>
-            <ul>
-                
-                <li><a href="#OM MEG">OM MEG</a>
-                    <ul>
-                        <li><a href="#">GENERELT</a></li> 
-                        
-                    </ul>
-                </li>
-                <li><a href="#FAG">FAG</a>
-                    <ul>
-                        <li><a href="socialdilemma.html">TF</a></li> 
-                        <li><a href="KP.html">KP</a></li>
-                        <li><a href="ph.html">PH</a></li> 
-                        <li><a href="nat.html">NAT</a></li>
-                        <li><a href="eng.html">ENG</a></li>
-                    </ul>
-                </li>
-                <li><a href="#KONTAKT MEG">KONTAKT MEG</a>
-                    <ul>
-                        
-                        <li><a href="mailto:h.nygjerde@gmail.com?subject=Epost fra nettsiden">MAIL</a></li> 
-                        <li><a href="tel:46968957">TLF</a>
-                        </li>
-                    </ul>   
-                </li>
-            </ul>
-        </nav>
-         </div>
 
+
+
+
+<body>
+    <header class="clearfix"> <!--clear fix er en fix på 0 height problemet-->
+        <div class="row limited">  <!--start av row (header)-->
+            <section class="column small-12">
+                <img src="img/logo.png" alt="huvixy logo">
+                <h1>HÅVARD</h1>
+                <h2>NYGJERDE</h2> <!--block design h1,h2-->
+            </section>
+        </div> <!--slutt av row (header)-->
     </header>
     
-    <div class="container4">
-        <p>Håvard Nygjerde</p>
-      </div>
-
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
+
+    <nav class="clearfix"> <!--responsive navbar med hamburger knapp på små skjermer-->
+        <div class="row limited">
+            <button id="hamburgerBtn">&#9776</button>
+            <ul id="primaryNav"> 
+                <li class="active"><a href="#">HJEM</a></li>
+                <li><a href="#">FAG</a></li>
+                <li><a href="#">OM MEG</a></li>
+                <li><a href="#">Kontakt meg</a></li>
+
+
+            </ul>
+        
+        </div> <!--slutt av row/navbar-->
+    </nav>
+    
+
+
+
+
+    <main>
+<h1>NETTSIDE </h1>
+    </main>
+
+
+
+
+
+
+    <footer class="clearfix">
+        
+        <div class="row limited"> <!--starten av footer-->
+        <section class="column small-12 medium-6 large-3">
+            <h2>sted</h2>
+            <ul>
+                
+                <li>Amalie Skram vgs</li> 
+                <li>Bergen</li>
+                <li>Bønes</li>
+            </ul>
+        </section>
+        <section class="column small-12 medium-6 large-3">
+            <h2>fag</h2>
+            <ul>
+                <li>teknologiforståelse</li>
+                <li>konseptutvikling og programering</li> 
+                <li>produksjon og historiefortelling</li>
+                
+            </ul>
+        </section>
+        <section class="column small-12 medium-6 large-3">
+            <h2>sosiale medier</h2>
+            <ul>
+                <li>youtube</li>
+                <li>instagram</li> 
+                <li>facebook</li>
+            </ul>
+        </section>
+        <section class="column small-12 medium-6 large-3">
+            <h2>HJEM</h2>
+            <ul>
+                <li>kilder</li>
+                <li>isperasjon</li>
+                <li>person</li>
+            </ul>
+            
+
+        </section>
+        </div> <!-- footer slutt -->
+
+    </footer>
+
+
+    <script src="js/menutoggle.js"> </script> <!--link til js fil-->
 </body>
 </html>

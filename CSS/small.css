@@ -1,0 +1,145 @@
+ /*setter standart tekst type for mobil layot */
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+
+
+ /*dette setter margin og padding på !mobil!*/
+* {
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
+/* font fra google fonts*/
+body {
+    font-family: 'Noto Sans Mono', monospace;
+    font-size: 16px;
+    font-weight: 300;
+
+}
+/* grid regler */
+.row{
+    clear: both;
+}
+
+.limited {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.column {
+    float: left;
+    padding: 0 2vh;
+    margin: 0 0 .75rem 0;
+}
+
+.small-12 {
+    width: 100%;
+}
+
+
+
+/* footer style  */
+footer {
+    background-color: grey;
+    font-size: 1.2rem;
+}
+footer h2 {
+    font-style:italic;
+    text-transform: uppercase;
+    margin: 1rem 0 .3rem 0 ;
+}
+
+
+.clearfix:after  {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*header style/regler */
+
+header {
+    background-color: blue;
+}
+
+/*  bilde størelse og plassering */
+header img {
+    float: left;
+    height: 85px;
+    padding-right: 10px;
+    
+    
+}
+
+/*  tekst ved siden av logo */
+header h1, header h2 {
+    margin: 0;
+    color: #fff;
+    font-family: 700;
+    font-style: italic;
+
+}
+/* "håvard" størrelse  */
+header h1 {
+    padding: .5rem 0 0 0;
+    font-size: 1.5rem;
+}
+
+/*  "Nygjerde" størellse */
+header h2 {
+    padding: .2rem 0 0 0;
+    font-size: 1rem;
+}
+
+
+/* responsive dropdown knapp js  */
+button#hamburgerBtn {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 2.4rem;
+    cursor: pointer;
+    padding: 0 30px 0 2vw;
+}
+
+/*  farge på nav */
+nav {
+    background-color: orange;
+    }
+
+    /* forhold inni ul */
+    nav ul {
+    margin: 0; padding: 0;
+    }
+
+    /* fjerning av punkter  */
+    nav ul li {
+        list-style-type: none;
+    }
+   /* type display og fjerning av underlinjer  */
+    nav a {
+        display: block;
+        padding: .8rem 0;
+        color: white;
+        text-decoration: none;
+        text-align:center;
+    } 
+    /*  visulasjon av hvilken side du er på */
+    nav li.active {background-color: rgba(128, 128, 128, 0.568);
+    }
+
+    /*  grå hover effekt når du tar musen over nav items */
+    nav a:hover {
+        background-color: rgba(177, 174, 174, 0.438);
+    }
+
+    nav ul.open {
+        display: block;
+    }
+
+    nav ul {
+        display: none;
+    }
