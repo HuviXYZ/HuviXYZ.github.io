@@ -157,4 +157,26 @@ nav {
         text-align: center;
     }
 
- <
+ .wrapper {
+        max-height: 100000px;
+        border: 1px solid #ddd;
+        display: flex;
+        overflow-x: auto
+
+}
+    
+
+.wrapper::-webkit-scrolbar{
+    width: 0;
+   
+}
+ 
+
+ .wrapper .item{
+     min-width: 1600px;
+     height: 600px;
+     line-height: 600px;
+     text-align: center;
+     ;
+     margin-right: 2px;
+ }
